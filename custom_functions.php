@@ -44,3 +44,12 @@ function global_custom_css() {
     echo "<link href='" . plugin_dir_url( __FILE__ ). "styles/global.css' rel='stylesheet' type='text/css'>";
 }
 add_action( 'wp_head', 'global_custom_css' );
+
+//------------------------------------------------------------------
+//---------------------- SCRIPT COOKIES ----------------------------
+//------------------------------------------------------------------
+
+function global_cookie() {    
+    echo "<script type='text/javascript' src='" . plugin_dir_url( __FILE__ ). "/scripts/cookies.js'></script>";
+}
+add_action( 'wp_head', 'global_cookie' );
