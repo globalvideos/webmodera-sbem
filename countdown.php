@@ -13,7 +13,7 @@ function global_countdown($atts)
     );
 
     //$current_user = wp_get_current_user();
-    $nome = $_COOKIE['cpf'];
+    $nome = $_COOKIE['nome'];
     $cidade = $_COOKIE['cidade'];
     $uf = $_COOKIE['uf'];
     $email = $_COOKIE['email'];

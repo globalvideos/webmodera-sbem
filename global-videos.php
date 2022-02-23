@@ -3,7 +3,7 @@
 Plugin Name: Global Videos (SBEM)
 Plugin URI: https://www.globalvideos.com.br
 description: Plugins para o site da SBEM
-Version: 1.0.2
+Version: 1.0.3
 Author: Global Videos
 Author URI: https://www.globalvideos.com.br
 License: GPL2
